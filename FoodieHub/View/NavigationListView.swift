@@ -12,11 +12,16 @@
 
 import SwiftUI
 
-@main
-struct Main: App {
-    var body: some Scene {
-        WindowGroup {
-            WelcomeView()
+struct NavigationListView: View {
+    var body: some View {
+        List {
+            RestaurantListItem()
         }
+    }
+}
+
+struct NavigationListView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationListView()
     }
 }

@@ -10,13 +10,4 @@
   Acknowledgement: None
 */
 
-import SwiftUI
-
-@main
-struct Main: App {
-    var body: some Scene {
-        WindowGroup {
-            WelcomeView()
-        }
-    }
-}
+import Foundation
