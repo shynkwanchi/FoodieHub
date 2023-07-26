@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "King BBQ",
-        "subtitle": "King of Korean Grill",
+        "subtitle": "King of Korean BBQ",
         "logo": "kingbbq",
         "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
         "mapCoordinates": {
@@ -15,13 +15,13 @@
         },
         "website": "https://kingbbq.vn/",
         "rating": 4.2,
-        "description": "",
+        "description": "With a passion for cultural cuisine, King BBQ offers diners a creative Korea-standard experience in the way of preparing each dish, making it worthy to be the KING OF BBQ! The menu with more than 200 diverse and unique dishes, researched and refined by the SECRET marinade and sauce recipe from the Korean chefs with over 40 years of experience, will satisfy any diners when they come. with King BBQ.",
         "photos": [
-            "kingbbq-interior",
-            "kingbbq-cuisine-1",
-            "kingbbq-cuisine-2",
-            "kingbbq-customers-1",
-            "kingbbq-customers-2"
+            "King BBQ restaurant",
+            "King BBQ lunch",
+            "King BBQ dinner",
+            "King BBQ family meal",
+            "King BBQ friends meal"
         ]
     },
     {
@@ -40,13 +40,13 @@
         },
         "website": "https://hutong.com.vn/",
         "rating": 4.3,
-        "description": "",
+        "description": "Hong Kong's food culture is an exciting blend of traditional and contemporary flavors that creates a lively dining experience. The quintessential Hong Kong hot pot is a testament to the pickiness and fussiness in the cuisine of the 'Gourmet's Culinary Paradise'.\nThe HUTONG culinary team is constantly creating and experimenting to bring you 'unlike-before' experiences, so that each of your hot pot parties is complete and unique.",
         "photos": [
-            "hutong-interior",
-            "hutong-cuisine-1",
-            "hutong-cuisine-2",
-            "hutong-customers-1",
-            "hutong-customers-2"
+            "Hutong restaurant",
+            "Hutong lunch",
+            "Hutong dinner",
+            "Hutong family meal",
+            "Hutong friends meal"
         ]
     },
     {
@@ -65,13 +65,13 @@
         },
         "website": "https://tokyodeli.com.vn/",
         "rating": 4.2,
-        "description": "",
+        "description": "Tokyo Deli is a restaurant chain that specializes in Japanese dishes, with the menu of over 200 dishes carefully selected from Japanese culinary experts, and regularly perfected to better suit Vietnamese tastes. Those who are Japanese cuisine gourmets are often very interested in how the dishes are cooked here, because those dishes always retain their identity from flavor to cooking steps.\nAt Tokyo Deli, in addition to Japan’s traditional Sashimi and Sushi dishes that are loved by most people who have ever enjoyed Japanese food, the menu provides a variety of options for diners who have enjoyed Japanese cuisine for the first time.",
         "photos": [
-            "tokyodeli-interior",
-            "tokyodeli-cuisine-1",
-            "tokyodeli-cuisine-2",
-            "tokyodeli-customers-1",
-            "tokyodeli-customers-2"
+            "Tokyo Deli restaurant",
+            "Tokyo Deli lunch",
+            "Tokyo Deli dinner",
+            "Tokyo Deli family meal",
+            "Tokyo Deli friends meal"
         ]
     },
     {
@@ -90,13 +90,13 @@
         },
         "website": "https://gogi.com.vn/",
         "rating": 4.0,
-        "description": "",
+        "description": "GoGi House - the No. 1 delicious Korean Barbecue Restaurant will take you to the barbecue restaurants in Seoul that have created a reputation for Korean cuisine. If you have once enjoyed barbecue at GoGi House, you won't be able to forget the 'ecstatic' taste of American beef short ribs, lean American beef shoulder, fresh ribs… blended with typical Korean spices. In addition, the indispensable side dishes such as bibimbap, cold noodles, Kimchi soup and hotpot dishes will also impress you more about Korean cuisine.",
         "photos": [
-            "gogihouse-interior",
-            "gogihouse-cuisine-1",
-            "gogihouse-cuisine-2",
-            "gogihouse-customers-1",
-            "gogihouse-customers-2"
+            "GoGi House restaurant",
+            "GoGi House lunch",
+            "GoGi House dinner",
+            "GoGi House family meal",
+            "GoGi House friends meal"
         ]
     },
     {
@@ -117,11 +117,11 @@
         "rating": 4.2,
         "description": "",
         "photos": [
-            "hotpotstory-interior",
-            "hotpotstory-cuisine-1",
-            "hotpotstory-cuisine-2",
-            "hotpotstory-customers-1",
-            "hotpotstory-customers-2"
+            "Hotpot Story restaurant",
+            "Hotpot Story lunch",
+            "Hotpot Story dinner",
+            "Hotpot Story family meal",
+            "Hotpot Story friends meal"
         ]
     },
     {
@@ -142,17 +142,17 @@
         "rating": 4.4,
         "description": "",
         "photos": [
-            "sushihokkaidosachi-interior",
-            "sushihokkaidosachi-cuisine-1",
-            "sushihokkaidosachi-cuisine-2",
-            "sushihokkaidosachi-customers-1",
-            "sushihokkaidosachi-customers-2"
+            "Sushi Hokkaido Sachi restaurant",
+            "Sushi Hokkaido Sachi lunch",
+            "Sushi Hokkaido Sachi dinner",
+            "Sushi Hokkaido Sachi family meal",
+            "Sushi Hokkaido Sachi friends meal"
         ]
     },
     {
         "id": 7,
         "title": "Sumo Yakiniku",
-        "subtitle": "Japanese BBQ",
+        "subtitle": "Japanese BBQ And Hotpot",
         "logo": "sumoyakiniku",
         "address": "59B Cao Thang, Ward 3, District 3, Ho Chi Minh City",
         "mapCoordinates": {
@@ -165,13 +165,13 @@
         },
         "website": "https://sumoyakiniku.com.vn/",
         "rating": 4.1,
-        "description": "",
+        "description": "Associated with the name of the famous Japanese grilling art, Sumo Yakiniku is a barbecue restaurant that focuses on premium ingredients and elaborate preparation from preserving, processing meat, marinating sauce, dipping sauce, to grilling techniques.\nWith Sumo's à la carte menu, diners will fully enjoy Japanese cuisine: from premium meats with Wagyu beef, Harami, American beef tenderloin, Iberico pork to hotpot dishes and featured side dishes. Besides, Sumo Yakiniku also serves buffet menus for customers who want to enjoy Japanese barbecue or Courses/Combos for groups of 2-3 diners.",
         "photos": [
-            "sumoyakiniku-interior",
-            "sumoyakiniku-cuisine-1",
-            "sumoyakiniku-cuisine-2",
-            "sumoyakiniku-customers-1",
-            "sumoyakiniku-customers-2"
+            "Sumo Yakiniku restaurant",
+            "Sumo Yakiniku lunch",
+            "Sumo Yakiniku dinner",
+            "Sumo Yakiniku family meal",
+            "Sumo Yakiniku friends meal"
         ]
     },
     {
@@ -190,13 +190,13 @@
         },
         "website": "https://kichi.com.vn/",
         "rating": 4.1,
-        "description": "",
+        "description": "Kichi-Kichi is the leading chain of restaurants specializing in hotpot buffets in Vietnam. Delicious and diverse dishes are served with a unique and modern conveyor, which is a combination of Kaiten serving style from Japan with modern architecture. With only one fixed price, diners can freely enjoy nearly 100 special hot pot dipping ingredients such as imported American beef, whole salmon, clean vegetables, fresh seasonal mushrooms, and so on.",
         "photos": [
-            "kichikichi-interior",
-            "kichikichi-cuisine-1",
-            "kichikichi-cuisine-2",
-            "kichikichi-customers-1",
-            "kichikichi-customers-2"
+            "Kichi-Kichi restaurant",
+            "Kichi-Kichi lunch",
+            "Kichi-Kichi dinner",
+            "Kichi-Kichi family meal",
+            "Kichi-Kichi friends meal"
         ]
     },
     {
@@ -217,17 +217,17 @@
         "rating": 4.1,
         "description": "",
         "photos": [
-            "sanfulou-interior",
-            "sanfulou-cuisine-1",
-            "sanfulou-cuisine-2",
-            "sanfulou-customers-1",
-            "sanfulou-customers-2"
+            "San Fu Lou restaurant",
+            "San Fu Lou lunch",
+            "San Fu Lou dinner",
+            "San Fu Lou family meal",
+            "San Fu Lou friends meal"
         ]
     },
     {
         "id": 10,
         "title": "Al Fresco's",
-        "subtitle": "Enjoy Western cuisine",
+        "subtitle": "Enjoy Western Cuisine",
         "logo": "alfrescos",
         "address": "31 Bis Mac Dinh Chi, Da Kao Ward, District 1, Ho Chi Minh City",
         "mapCoordinates": {
@@ -240,13 +240,13 @@
         },
         "website": "https://alfrescos.com.vn/",
         "rating": 4.2,
-        "description": "",
+        "description": "Since its establishment in 1996, Al Fresco's has provided customers in Vietnam with excellent quality dining experiences at a reasonable cost. The Al Fresco's restaurant chain has built a reputation for delicious dishes such as steaks, pizza, pasta and ribs, along with a variety of drinks from fruit juices and refreshing smoothies to domestic, imported beers and famous wines.\nAl Fresco's is also popular with Vietnamese and foreign families, couples and young people. With a clean, comfortable design and a sense of intimacy, the restaurant is an oasis that welcomes you to enjoy delicious food and excellent customer service after the hustle and bustle of daily life.",
         "photos": [
-            "alfrescos-interior",
-            "alfrescos-cuisine-1",
-            "alfrescos-cuisine-2",
-            "alfrescos-customers-1",
-            "alfrescos-customers-2"
+            "Al Fresco's restaurant",
+            "Al Fresco's lunch",
+            "Al Fresco's dinner",
+            "Al Fresco's family meal",
+            "Al Fresco's friends meal"
         ]
     }
 ]
