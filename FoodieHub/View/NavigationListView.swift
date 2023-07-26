@@ -14,9 +14,13 @@ import SwiftUI
 
 struct NavigationListView: View {
     var body: some View {
-        List {
-            RestaurantListItem()
-        }
+//        NavigationLink{
+            List {
+                RestaurantListItem(title: "King BBQ", subtitle: "King of Korean grill", logo: "kingbbq")
+                RestaurantListItem(title: "GoGi House", subtitle: "Korean BBQ Restaurant", logo:"app-logo")
+                RestaurantListItem(title: "Hutong", subtitle: "Hotpot Paradise", logo: "kingbbq")
+            }
+//        }
     }
 }
 

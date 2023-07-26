@@ -14,19 +14,21 @@ import SwiftUI
 
 struct RestaurantListItem: View {
 //    var restaurant : Restaurant
+    var title, subtitle, logo: String
     
     var body: some View {
         HStack {
-            Image("app-logo")
+            Image(logo)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .clipShape(Circle())
                 .frame(width: 60, height: 60)
+                .clipped()
             
             VStack(alignment: .leading, spacing: 5) {
-                Text("Gogi House")
+                Text(title)
                     .font(.system(size: 20))
                     .fontWeight(.medium)
-                Text("Korean BBQ stall")
+                Text(subtitle)
                     .font(.system(size: 15))
                     .fontWeight(.regular)
             }
@@ -37,6 +39,7 @@ struct RestaurantListItem: View {
 
 struct RestaurantListItem_Previews: PreviewProvider {
     static var previews: some View {
-        RestaurantListItem()
+//        RestaurantListItem(title: "Kichi-Kichi", subtitle: "Rotary Express Hotpot")
+        RestaurantListItem(title: "King BBQ", subtitle: "King of Korean grill", logo: "kingbbq")
     }
 }

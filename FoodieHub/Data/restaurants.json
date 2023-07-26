@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "title": "King BBQ",
+        "subtitle": "King of Korean Grill",
+        "logo": "kingbbq",
+        "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.797316581493128,
+            "longitude": 106.66548826770493
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://kingbbq.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "kingbbq-interior",
+            "kingbbq-cuisine-1",
+            "kingbbq-cuisine-2",
+            "kingbbq-customers-1",
+            "kingbbq-customers-2"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Hutong",
+        "subtitle": "Hotpot Paradise",
+        "logo": "hutong",
+        "address": "6B Le Quy Don, Ward 6, District 3, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.780443521169481,
+            "longitude": 106.69233185502128
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://hutong.com.vn/",
+        "rating": 4.3,
+        "description": "",
+        "photos": [
+            "hutong-interior",
+            "hutong-cuisine-1",
+            "hutong-cuisine-2",
+            "hutong-customers-1",
+            "hutong-customers-2"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Tokyo Deli",
+        "subtitle": "Sushi Restaurant",
+        "logo": "tokyodeli",
+        "address": "4 Truong Son, Ward 2, Tan Binh District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.807646575510104,
+            "longitude": 106.66446351004281
+        },
+        "businessHours": {
+            "open": "11:00",
+            "close": "22:00"
+        },
+        "website": "https://tokyodeli.com.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "tokyodeli-interior",
+            "tokyodeli-cuisine-1",
+            "tokyodeli-cuisine-2",
+            "tokyodeli-customers-1",
+            "tokyodeli-customers-2"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "GoGi House",
+        "subtitle": "Korean BBQ Restaurant",
+        "logo": "gogihouse",
+        "address": "143 Phan Xich Long, Ward 7, Phu Nhuan District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.798369788899391,
+            "longitude": 106.68956377303726
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://gogi.com.vn/",
+        "rating": 4.0,
+        "description": "",
+        "photos": [
+            "gogihouse-interior",
+            "gogihouse-cuisine-1",
+            "gogihouse-cuisine-2",
+            "gogihouse-customers-1",
+            "gogihouse-customers-2"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Hotpot Story",
+        "subtitle": "5 Asian Flavors",
+        "logo": "hotpotstory",
+        "address": "409A Le Van Sy, Ward 12, District 3, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.790062508426926,
+            "longitude": 106.67579894597641
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://hotpotstory.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "hotpotstory-interior",
+            "hotpotstory-cuisine-1",
+            "hotpotstory-cuisine-2",
+            "hotpotstory-customers-1",
+            "hotpotstory-customers-2"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Sushi Hokkaido Sachi",
+        "subtitle": "Vietnam's Top 1 Japanese Restaurant",
+        "logo": "sushihokkaidosachi",
+        "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.797316581493128,
+            "longitude": 106.66548826770493
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://kingbbq.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "kingbbq-interior",
+            "kingbbq-cuisine-1",
+            "kingbbq-cuisine-2",
+            "kingbbq-customers-1",
+            "kingbbq-customers-2"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "King BBQ",
+        "subtitle": "King of Korean grill",
+        "logo": "kingbbq",
+        "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.797316581493128,
+            "longitude": 106.66548826770493
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://kingbbq.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "kingbbq-interior",
+            "kingbbq-cuisine-1",
+            "kingbbq-cuisine-2",
+            "kingbbq-customers-1",
+            "kingbbq-customers-2"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "King BBQ",
+        "subtitle": "King of Korean grill",
+        "logo": "kingbbq",
+        "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.797316581493128,
+            "longitude": 106.66548826770493
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://kingbbq.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "kingbbq-interior",
+            "kingbbq-cuisine-1",
+            "kingbbq-cuisine-2",
+            "kingbbq-customers-1",
+            "kingbbq-customers-2"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "King BBQ",
+        "subtitle": "King of Korean grill",
+        "logo": "kingbbq",
+        "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.797316581493128,
+            "longitude": 106.66548826770493
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://kingbbq.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "kingbbq-interior",
+            "kingbbq-cuisine-1",
+            "kingbbq-cuisine-2",
+            "kingbbq-customers-1",
+            "kingbbq-customers-2"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "King BBQ",
+        "subtitle": "King of Korean grill",
+        "logo": "kingbbq",
+        "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.797316581493128,
+            "longitude": 106.66548826770493
+        },
+        "businessHours": {
+            "open": "10:00",
+            "close": "22:00"
+        },
+        "website": "https://kingbbq.vn/",
+        "rating": 4.2,
+        "description": "",
+        "photos": [
+            "kingbbq-interior",
+            "kingbbq-cuisine-1",
+            "kingbbq-cuisine-2",
+            "kingbbq-customers-1",
+            "kingbbq-customers-2"
+        ]
+    }
+]
