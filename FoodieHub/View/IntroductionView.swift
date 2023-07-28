@@ -19,7 +19,6 @@ struct IntroductionView: View {
     var body: some View {
         ZStack {           
             VStack {
-                // Header section
                 Image("rmit-logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -27,7 +26,6 @@ struct IntroductionView: View {
                 
                 Spacer()
                 
-                // Main Section
                 Image("app-logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -49,10 +47,9 @@ struct IntroductionView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)
-                
+                                
                 Spacer()
                 
-                // Footer section
                 HStack {
                     Spacer()
                     Button {

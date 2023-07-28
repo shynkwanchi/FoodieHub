@@ -11,20 +11,22 @@
 */
 
 import Foundation
-import SwiftUI
 
 struct Restaurant: Identifiable, Codable {
-    var id: Int
-    var title: String
-    var subtitle: String
-    var logoImage: String
-    var address: String
-    var openTime: String
-    var closeTime: String
-    var link: String
-    var rating: Double
-    var about: String
-    var galleryImages: [String]
-    var latitude: Double
-    var longitude: Double
+    let id: Int
+    let title, subtitle, logo, address: String
+    let mapCoordinates: MapCoordinates
+    let businessHours: BusinessHours
+    let website: String
+    let rating: Double
+    let description: String
+    let photos: [String]
+}
+
+struct BusinessHours: Codable {
+    let opening, closing: String
+}
+
+struct MapCoordinates: Codable {
+    let latitude, longitude: Double
 }

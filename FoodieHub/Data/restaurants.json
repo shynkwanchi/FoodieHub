@@ -10,8 +10,8 @@
             "longitude": 106.66548826770493
         },
         "businessHours": {
-            "open": "10:00",
-            "close": "22:00"
+            "opening": "10:00",
+            "closing": "22:00"
         },
         "website": "https://kingbbq.vn/",
         "rating": 4.2,
@@ -35,8 +35,8 @@
             "longitude": 106.69233185502128
         },
         "businessHours": {
-            "open": "10:00",
-            "close": "22:00"
+            "opening": "10:00",
+            "closing": "22:00"
         },
         "website": "https://hutong.com.vn/",
         "rating": 4.3,
@@ -60,8 +60,8 @@
             "longitude": 106.66446351004281
         },
         "businessHours": {
-            "open": "11:00",
-            "close": "22:00"
+            "opening": "11:00",
+            "closing": "22:00"
         },
         "website": "https://tokyodeli.com.vn/",
         "rating": 4.2,
@@ -85,8 +85,8 @@
             "longitude": 106.68956377303726
         },
         "businessHours": {
-            "open": "10:00",
-            "close": "22:00"
+            "opening": "10:00",
+            "closing": "22:00"
         },
         "website": "https://gogi.com.vn/",
         "rating": 4.0,
@@ -110,8 +110,8 @@
             "longitude": 106.67579894597641
         },
         "businessHours": {
-            "open": "10:00",
-            "close": "22:00"
+            "opening": "10:00",
+            "closing": "22:00"
         },
         "website": "https://hotpotstory.vn/",
         "rating": 4.2,
@@ -135,8 +135,8 @@
             "longitude": 106.69184927799655
         },
         "businessHours": {
-            "open": "10:30",
-            "close": "23:00"
+            "opening": "10:30",
+            "closing": "23:00"
         },
         "website": "https://sushihokkaidosachi.com.vn/",
         "rating": 4.4,
@@ -160,8 +160,8 @@
             "longitude": 106.68128186143595
         },
         "businessHours": {
-            "open": "11:00",
-            "close": "22:00"
+            "opening": "11:00",
+            "closing": "22:00"
         },
         "website": "https://sumoyakiniku.com.vn/",
         "rating": 4.1,
@@ -185,8 +185,8 @@
             "longitude": 106.68926906921747
         },
         "businessHours": {
-            "open": "10:00",
-            "close": "22:00"
+            "opening": "10:00",
+            "closing": "22:00"
         },
         "website": "https://kichi.com.vn/",
         "rating": 4.1,
@@ -210,8 +210,8 @@
             "longitude": 106.68816970560194
         },
         "businessHours": {
-            "open": "07:00",
-            "close": "22:00"
+            "opening": "07:00",
+            "closing": "22:00"
         },
         "website": "https://sanfulou.com/",
         "rating": 4.1,
@@ -235,8 +235,8 @@
             "longitude": 106.68714430898935
         },
         "businessHours": {
-            "open": "10:00",
-            "close": "22:00"
+            "opening": "10:00",
+            "closing": "22:00"
         },
         "website": "https://alfrescos.com.vn/",
         "rating": 4.2,
