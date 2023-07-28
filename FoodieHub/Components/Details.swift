@@ -21,7 +21,7 @@ struct Details: View {
             DetailItem(icon: "clock", content: "\(restaurant.businessHours.opening) - \(restaurant.businessHours.closing)")
             DetailItem(icon: "star", content: String(restaurant.rating))
         }
-        .padding(.vertical, 5)
+        .padding(.bottom, 5.0)
     }
 }
 

@@ -31,19 +31,17 @@ struct IntroductionView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200)
                 Text("Foodie Hub")
-                    .font(.system(size: 40))
-                    .fontWeight(.semibold)
+                    .font(Font.custom("NotoSerif-Medium", size: 40))
                     .padding(.vertical, 5.0)
                 Text("Enjoy your meal in your favourite restaurant.")
-                    .font(.system(size: 20))
-                    .fontWeight(.regular)
+                    .font(Font.custom("NotoSerif-Light", size: 20))
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 30.0)
                 Button {
                     isActive = false
                 } label: {
                     Text("Let's Go!")
-                        .font(.system(size: 24))
+                        .font(Font.custom("NotoSerif-Regular", size: 24))
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)

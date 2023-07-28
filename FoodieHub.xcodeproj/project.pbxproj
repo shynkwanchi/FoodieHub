@@ -19,9 +19,12 @@
 		69714C992A6FCDE2002AA007 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69714C982A6FCDE2002AA007 /* RestaurantData.swift */; };
 		69714C9B2A6FCEE4002AA007 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69714C9A2A6FCEE4002AA007 /* DetailView.swift */; };
 		69714C9D2A6FCF33002AA007 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69714C9C2A6FCF33002AA007 /* DetailItem.swift */; };
-		69714C9F2A6FD280002AA007 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69714C9E2A6FD280002AA007 /* Map.swift */; };
+		69714C9F2A6FD280002AA007 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69714C9E2A6FD280002AA007 /* MapView.swift */; };
 		698E16852A737B9F006339A8 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E16842A737B9F006339A8 /* Details.swift */; };
 		698E16872A7385F6006339A8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E16862A7385F6006339A8 /* Card.swift */; };
+		698E168F2A73BBA2006339A8 /* NotoSerif-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 698E168E2A73BBA2006339A8 /* NotoSerif-Light.ttf */; };
+		698E16912A73BD1D006339A8 /* NotoSerif-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 698E16902A73BD1D006339A8 /* NotoSerif-Medium.ttf */; };
+		698E16932A73BE6D006339A8 /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 698E16922A73BE6D006339A8 /* NotoSerif-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +41,13 @@
 		69714C982A6FCDE2002AA007 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
 		69714C9A2A6FCEE4002AA007 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		69714C9C2A6FCF33002AA007 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
-		69714C9E2A6FD280002AA007 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		69714C9E2A6FD280002AA007 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		698E16842A737B9F006339A8 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		698E16862A7385F6006339A8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		698E168D2A73B9EA006339A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698E168E2A73BBA2006339A8 /* NotoSerif-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Light.ttf"; sourceTree = "<group>"; };
+		698E16902A73BD1D006339A8 /* NotoSerif-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Medium.ttf"; sourceTree = "<group>"; };
+		698E16922A73BE6D006339A8 /* NotoSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +80,8 @@
 		694378352A6F6F3F00BF04A8 /* FoodieHub */ = {
 			isa = PBXGroup;
 			children = (
+				698E168D2A73B9EA006339A8 /* Info.plist */,
+				698E16882A73AA75006339A8 /* Extensions */,
 				694378512A6FACF200BF04A8 /* Data */,
 				6943784E2A6FA60900BF04A8 /* Model */,
 				694378452A6F72F600BF04A8 /* Components */,
@@ -110,7 +119,7 @@
 				698E16862A7385F6006339A8 /* Card.swift */,
 				69714C9C2A6FCF33002AA007 /* DetailItem.swift */,
 				698E16842A737B9F006339A8 /* Details.swift */,
-				69714C9E2A6FD280002AA007 /* Map.swift */,
+				69714C9E2A6FD280002AA007 /* MapView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -130,6 +139,16 @@
 				69714C982A6FCDE2002AA007 /* RestaurantData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		698E16882A73AA75006339A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				698E168E2A73BBA2006339A8 /* NotoSerif-Light.ttf */,
+				698E16922A73BE6D006339A8 /* NotoSerif-Regular.ttf */,
+				698E16902A73BD1D006339A8 /* NotoSerif-Medium.ttf */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6943783E2A6F6F4100BF04A8 /* Preview Assets.xcassets in Resources */,
+				698E16932A73BE6D006339A8 /* NotoSerif-Regular.ttf in Resources */,
+				698E168F2A73BBA2006339A8 /* NotoSerif-Light.ttf in Resources */,
 				6950A88D2A7101F10012DD58 /* restaurants.json in Resources */,
+				698E16912A73BD1D006339A8 /* NotoSerif-Medium.ttf in Resources */,
 				6943783B2A6F6F4100BF04A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69714C9F2A6FD280002AA007 /* Map.swift in Sources */,
+				69714C9F2A6FD280002AA007 /* MapView.swift in Sources */,
 				69714C9D2A6FCF33002AA007 /* DetailItem.swift in Sources */,
 				694378502A6FA61B00BF04A8 /* Restaurant.swift in Sources */,
 				69714C9B2A6FCEE4002AA007 /* DetailView.swift in Sources */,
@@ -346,6 +368,7 @@
 				DEVELOPMENT_TEAM = 29DDDV83NA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodieHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +398,7 @@
 				DEVELOPMENT_TEAM = 29DDDV83NA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodieHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

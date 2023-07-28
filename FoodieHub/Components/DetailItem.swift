@@ -20,7 +20,7 @@ struct DetailItem: View {
             Image(systemName: icon)
                 .padding(.trailing, 5.0)
             Text(content)
-                .font(.system(size: 18))
+                .font(Font.custom("NotoSerif-light", size: 18))
         }
         .padding(.bottom, 5.0)
     }

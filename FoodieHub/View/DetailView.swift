@@ -11,29 +11,28 @@ struct DetailView: View {
     var restaurant : Restaurant
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Card(restaurant: restaurant)
-            
-            Divider()
-            
-            ScrollView {
+        ScrollView {
+            VStack {
+                MapView(
+                    latitude: restaurant.mapCoordinates.latitude,
+                    longitude: restaurant.mapCoordinates.longitude
+                )
+                Card(title: restaurant.title, subtitle: restaurant.subtitle, logo: restaurant.logo)
+                    .offset(y: -100.0)
+                    .padding(.bottom, -90)
+                                
                 VStack(alignment: .leading) {
+                    Divider()
                     Text("Details")
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .font(.system(size: 24))
+                        .font(Font.custom("NotoSerif-Medium", size: 24))
                     Details(restaurant: restaurant)
                     
                     Divider()
-                    
                     Text("About")
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .font(.system(size: 24))
+                        .font(Font.custom("NotoSerif-Medium", size: 24))
                     Text(restaurant.description)
-                        .font(.system(size: 18))
-                        .padding(.vertical, 1)
-                    
+                        .font(Font.custom("NotoSerif-Light", size: 18))
+                        .padding(.bottom, 1)
                     HStack {
                         Spacer()
                         
@@ -45,7 +44,7 @@ struct DetailView: View {
                             Image(systemName: "link")
                                 .padding(.trailing, 5.0)
                             Text("Visit \(restaurant.title)'s website")
-                                .font(.system(size: 20))
+                                .font(Font.custom("NotoSerif-Regular", size: 24))
                         }
                         .buttonStyle(.borderedProminent)
                         .controlSize(.large)
@@ -53,16 +52,15 @@ struct DetailView: View {
                         
                         Spacer()
                     }
-                    Divider()
                     
+                    Divider()
                     Text("Gallery")
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .font(.system(size: 24))
+                        .font(Font.custom("NotoSerif-Medium", size: 24))
+                    
                 }
+                .padding(.horizontal, 15)
             }
         }
-        .padding(.horizontal, 15)
     }
 }
 

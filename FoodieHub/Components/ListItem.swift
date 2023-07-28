@@ -25,11 +25,9 @@ struct ListItem: View {
             
             VStack(alignment: .leading, spacing: 5) {
                 Text(restaurant.title)
-                    .font(.system(size: 20))
-                    .fontWeight(.medium)
+                    .font(Font.custom("NotoSerif-Regular", size: 20))
                 Text(restaurant.subtitle)
-                    .font(.system(size: 15))
-                    .fontWeight(.regular)
+                    .font(Font.custom("NotoSerif-Light", size: 15))
             }
             
         }
