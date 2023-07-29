@@ -4,10 +4,10 @@
         "title": "King BBQ",
         "subtitle": "King of Korean BBQ",
         "logo": "kingbbq",
-        "address": "347 Le Van Sy, Ward 1, Tan Binh District, Ho Chi Minh City",
+        "address": "347 Le Van Sy, Ward 1, Tan Binh, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.797316581493128,
-            "longitude": 106.66548826770493
+            "latitude": 10.796186,
+            "longitude": 106.665601
         },
         "businessHours": {
             "opening": "10:00",
@@ -15,7 +15,7 @@
         },
         "website": "https://kingbbq.vn/",
         "rating": 4.2,
-        "description": "With a passion for cultural cuisine, King BBQ offers diners a creative Korea-standard experience in the way of preparing each dish, making it worthy to be the KING OF BBQ! The menu with more than 200 diverse and unique dishes, researched and refined by the SECRET marinade and sauce recipe from the Korean chefs with over 40 years of experience, will satisfy any diners when they come. with King BBQ.",
+        "description": "With a passion for cultural cuisine, King BBQ offers diners a creative Korea-standard experience in the way of preparing each dish, making it worthy to be the KING OF BBQ! The menu with more than 200 diverse and unique dishes, researched and refined by the SECRET marinade and sauce recipe from the Korean chefs with over 40 years of experience, will satisfy any diners when they come to King BBQ.",
         "photos": [
             "King BBQ restaurant",
             "King BBQ lunch",
@@ -29,10 +29,10 @@
         "title": "Hutong",
         "subtitle": "Hotpot Paradise",
         "logo": "hutong",
-        "address": "6B Le Quy Don, Ward 6, District 3, Ho Chi Minh City",
+        "address": "6B Le Quy Don, Vo Thi Sau, District 3, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.780443521169481,
-            "longitude": 106.69233185502128
+            "latitude": 10.780275,
+            "longitude": 106.692310
         },
         "businessHours": {
             "opening": "10:00",
@@ -54,10 +54,10 @@
         "title": "Tokyo Deli",
         "subtitle": "Sushi Restaurant",
         "logo": "tokyodeli",
-        "address": "4 Truong Son, Ward 2, Tan Binh District, Ho Chi Minh City",
+        "address": "4 Truong Son, Ward 2, Tan Binh, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.807646575510104,
-            "longitude": 106.66446351004281
+            "latitude": 10.806995,
+            "longitude": 106.664446
         },
         "businessHours": {
             "opening": "11:00",
@@ -79,10 +79,10 @@
         "title": "GoGi House",
         "subtitle": "Korean BBQ Restaurant",
         "logo": "gogihouse",
-        "address": "143 Phan Xich Long, Ward 7, Phu Nhuan District, Ho Chi Minh City",
+        "address": "143 Phan Xich Long, Ward 7, Phu Nhuan, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.798369788899391,
-            "longitude": 106.68956377303726
+            "latitude": 10.797721,
+            "longitude": 106.689400
         },
         "businessHours": {
             "opening": "10:00",
@@ -104,10 +104,10 @@
         "title": "Hotpot Story",
         "subtitle": "5 Asian Flavors",
         "logo": "hotpotstory",
-        "address": "409A Le Van Sy, Ward 12, District 3, Ho Chi Minh City",
+        "address": "409 Le Van Sy, Ward 12, District 3, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.790062508426926,
-            "longitude": 106.67579894597641
+            "latitude": 10.789007,
+            "longitude": 106.675669
         },
         "businessHours": {
             "opening": "10:00",
@@ -129,17 +129,17 @@
         "title": "Sushi Hokkaido Sachi",
         "subtitle": "Vietnam's Top 1 Japanese Restaurant",
         "logo": "sushihokkaidosachi",
-        "address": "172Q Nguyen Dinh Chieu, Ward 6, District 3, Ho Chi Minh City",
+        "address": "180 Pasteur, Ben Nghe, District 1, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.781671528727163,
-            "longitude": 106.69184927799655
+            "latitude": 10.778328,
+            "longitude": 106.698382
         },
         "businessHours": {
             "opening": "10:30",
-            "closing": "23:00"
+            "closing": "22:30"
         },
         "website": "https://sushihokkaidosachi.com.vn/",
-        "rating": 4.4,
+        "rating": 4.3,
         "description": "Coming to Sushi Hokkaido Sachi, you will enjoy and experience authentic, delicious and very attractive Japanese dishes. Especially, all the Japanese dishes here are imported directly from the seafood paradise of Hokkaido, which is famous for the freshest seafood in Japan.\nSushi Hokkaido Sachi specializes in sushi and sashimi dishes. When coming here, diners will enjoy authentic sushi and sashimi dishes since they are cooked in the style of Japanese cuisine. Besides, all the ingredients for processing are imported completely from Hokkaido, the beautiful island of Japan, so the freshness, quality or safety of food and ingredients there is no need to discuss or worry about.",
         "photos": [
             "Sushi Hokkaido Sachi restaurant",
@@ -156,8 +156,8 @@
         "logo": "sumoyakiniku",
         "address": "59B Cao Thang, Ward 3, District 3, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.772293546602176,
-            "longitude": 106.68128186143595
+            "latitude": 10.770657,
+            "longitude": 106.681231
         },
         "businessHours": {
             "opening": "11:00",
@@ -179,10 +179,10 @@
         "title": "Kichi-Kichi",
         "subtitle": "Express Rotary Hotpot",
         "logo": "kichikichi",
-        "address": "145 Phan Xich Long, Ward 7, Phu Nhuan District, Ho Chi Minh City",
+        "address": "145 Phan Xich Long, Ward 7, Phu Nhuan, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.79849173154871,
-            "longitude": 106.68926906921747
+            "latitude": 10.797755,
+            "longitude": 106.689326
         },
         "businessHours": {
             "opening": "10:00",
@@ -204,10 +204,10 @@
         "title": "San Fu Lou",
         "subtitle": "Cantonese Kitchen",
         "logo": "sanfulou",
-        "address": "195 Phan Xich Long, Ward 2, Phu Nhuan District, Ho Chi Minh City",
+        "address": "195 Phan Xich Long, Ward 2, Phu Nhuan, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.809836310390054,
-            "longitude": 106.68816970560194
+            "latitude": 10.798526,
+            "longitude": 106.687525
         },
         "businessHours": {
             "opening": "07:00",
@@ -215,7 +215,7 @@
         },
         "website": "https://sanfulou.com/",
         "rating": 4.1,
-        "description": "",
+        "description": "At San Fu Lou, the traditional concept of a Chinese restaurant is brought to a new level of sophistication with a contemporary Eastern ambience replete with the colours and material of a traditional Chinese 'house'. This perfect combination allows diners to take in a visual feast before the food is served.\nWith the motto 'Delicious, Nutritious and Hygienic' as the Three Blessings, San Fu Lou is a place to enjoy Chinese classics such as a variety of Dimsum, warm Roast Meat, signature Stir-Fry dishes, along with handpicked teas, which allows all guests to appreciate nostalgic tastes in the modern times.",
         "photos": [
             "San Fu Lou restaurant",
             "San Fu Lou lunch",
@@ -229,10 +229,10 @@
         "title": "Al Fresco's",
         "subtitle": "Enjoy Western Cuisine",
         "logo": "alfrescos",
-        "address": "31 Bis Mac Dinh Chi, Da Kao Ward, District 1, Ho Chi Minh City",
+        "address": "31 Bis Mac Dinh Chi, Da Kao, District 1, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.787937311165104,
-            "longitude": 106.68714430898935
+            "latitude": 10.784676,
+            "longitude": 106.699353
         },
         "businessHours": {
             "opening": "10:00",

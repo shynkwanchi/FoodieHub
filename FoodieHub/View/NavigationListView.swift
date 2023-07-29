@@ -22,7 +22,7 @@ struct NavigationListView: View {
                 } label: {
                     ListItem(restaurant: restaurant)
                 }
-                .navigationTitle("Restaurants")
+//                 .navigationTitle("Restaurants")
             }
         }
     }

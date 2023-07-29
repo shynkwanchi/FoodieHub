@@ -5,18 +5,21 @@
   Assessment: Assignment 1
   Author: Nguyen Quang Duy
   ID: 3877991
-  Created  date: 25/07/2023
+  Created  date: 29/07/2023
   Last modified: to be added
   Acknowledgement: None
 */
 
 import SwiftUI
 
-@main
-struct Main: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct ContentView: View {
+    var body: some View {
+        WelcomeView()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }

@@ -44,7 +44,7 @@ struct DetailView: View {
                             Image(systemName: "link")
                                 .padding(.trailing, 5.0)
                             Text("Visit \(restaurant.title)'s website")
-                                .font(Font.custom("NotoSerif-Regular", size: 24))
+                                .font(Font.custom("NotoSerif-Regular", size: 20))
                         }
                         .buttonStyle(.borderedProminent)
                         .controlSize(.large)
@@ -56,16 +56,18 @@ struct DetailView: View {
                     Divider()
                     Text("Gallery")
                         .font(Font.custom("NotoSerif-Medium", size: 24))
-                    
+                    PhotoSlider(photos: restaurant.photos)
                 }
                 .padding(.horizontal, 15)
+                .padding(.bottom, 25)
             }
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(restaurant: restaurants[5])
+        DetailView(restaurant: restaurants[0])
     }
 }
