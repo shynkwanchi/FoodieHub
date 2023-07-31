@@ -7,7 +7,7 @@
  ID: 3877991
  Created  date: 25/07/2023
  Last modified: to be added
- Acknowledgement: None
+ Acknowledgement: Stack Oveflow [https://stackoverflow.com/questions/62989013/adding-a-mapmarker-to-mapkit-in-swiftui-2]
  */
 
 import SwiftUI
@@ -51,8 +51,8 @@ struct MapView: View {
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         MapView(
-            latitude: restaurants[1].mapCoordinates.latitude,
-            longitude: restaurants[1].mapCoordinates.longitude
+            latitude: restaurants[0].mapCoordinates.latitude,
+            longitude: restaurants[0].mapCoordinates.longitude
         )
     }
 }

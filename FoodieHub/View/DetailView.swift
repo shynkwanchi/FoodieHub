@@ -1,9 +1,14 @@
-//
-//  DetailView.swift
-//  FoodieHub
-//
-//  Created by Duy Nguyen Quang on 25/07/2023.
-//
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2023B
+ Assessment: Assignment 1
+ Author: Nguyen Quang Duy
+ ID: 3877991
+ Created  date: 25/07/2023
+ Last modified: to be added
+ Acknowledgement: None
+ */
 
 import SwiftUI
 
@@ -20,16 +25,18 @@ struct DetailView: View {
                 Card(title: restaurant.title, subtitle: restaurant.subtitle, logo: restaurant.logo)
                     .offset(y: -100.0)
                     .padding(.bottom, -90)
-                                
+                
                 VStack(alignment: .leading) {
                     Divider()
                     Text("Details")
                         .font(Font.custom("NotoSerif-Medium", size: 24))
+                        .foregroundColor(Color("Primary"))
                     Details(restaurant: restaurant)
                     
                     Divider()
                     Text("About")
                         .font(Font.custom("NotoSerif-Medium", size: 24))
+                        .foregroundColor(Color("Primary"))
                     Text(restaurant.description)
                         .font(Font.custom("NotoSerif-Light", size: 18))
                         .padding(.bottom, 1)
@@ -48,6 +55,7 @@ struct DetailView: View {
                         }
                         .buttonStyle(.borderedProminent)
                         .controlSize(.large)
+                        .tint(.accentColor)
                         .padding(.vertical, 10)
                         
                         Spacer()
@@ -56,6 +64,8 @@ struct DetailView: View {
                     Divider()
                     Text("Gallery")
                         .font(Font.custom("NotoSerif-Medium", size: 24))
+                        .foregroundColor(Color("Primary"))
+                    
                     PhotoSlider(photos: restaurant.photos)
                 }
                 .padding(.horizontal, 15)
@@ -63,6 +73,12 @@ struct DetailView: View {
             }
         }
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar{
+            ToolbarItemGroup(placement: .principal) {
+                Text(restaurant.title)
+                    .font(Font.custom("NotoSerif-Medium", size: 20))
+            }
+        }
     }
 }
 

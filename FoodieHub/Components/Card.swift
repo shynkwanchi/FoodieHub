@@ -1,9 +1,14 @@
-//
-//  Card.swift
-//  FoodieHub
-//
-//  Created by Duy Nguyen Quang on 28/07/2023.
-//
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2023B
+ Assessment: Assignment 1
+ Author: Nguyen Quang Duy
+ ID: 3877991
+ Created  date: 28/07/2023
+ Last modified: to be added
+ Acknowledgement: None
+ */
 
 import SwiftUI
 
@@ -18,17 +23,19 @@ struct Card: View {
                 .overlay(Circle().stroke(Color(.white), lineWidth: 5))
                 .shadow(radius: 5)
                 .frame(width: 200, height: 200)
-
-                Text(title)
-                    .font(Font.custom("NotoSerif-Regular", size: 30))
-                Text(subtitle)
-                    .font(Font.custom("NotoSerif-Light", size: 18))
+            
+            Text(title)
+                .font(Font.custom("NotoSerif-Regular", size: 30))
+                .foregroundColor(Color("Primary"))
+            Text(subtitle)
+                .font(Font.custom("NotoSerif-Light", size: 18))
+                .foregroundColor(Color("Secondary"))
         }
     }
 }
 
 struct Card_Previews: PreviewProvider {
     static var previews: some View {
-        Card(title: restaurants[9].title, subtitle: restaurants[9].subtitle, logo: restaurants[9].logo)
+        Card(title: restaurants[0].title, subtitle: restaurants[0].subtitle, logo: restaurants[0].logo)
     }
 }

@@ -18,8 +18,8 @@ struct Details: View {
     var body: some View {
         VStack(alignment: .leading) {
             DetailItem(icon: "mappin", content: restaurant.address)
-            DetailItem(icon: "clock", content: "\(restaurant.businessHours.opening) - \(restaurant.businessHours.closing)")
-            DetailItem(icon: "star", content: String(restaurant.rating))
+            DetailItem(icon: "clock.fill", content: "\(restaurant.businessHours.opening) - \(restaurant.businessHours.closing)")
+            DetailItem(icon: "star.fill", content: String(restaurant.rating))
         }
         .padding(.bottom, 5.0)
     }
@@ -27,6 +27,6 @@ struct Details: View {
 
 struct Details_Previews: PreviewProvider {
     static var previews: some View {
-        Details(restaurant: restaurants[9])
+        Details(restaurant: restaurants[0])
     }
 }

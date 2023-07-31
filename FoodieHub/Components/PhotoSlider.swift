@@ -7,7 +7,7 @@
  ID: 3877991
  Created  date: 29/07/2023
  Last modified: to be added
- Acknowledgement: None
+ Acknowledgement: YouTube: https://www.youtube.com/watch?v=VYxxzrlS8q0
  */
 
 import SwiftUI
@@ -28,7 +28,7 @@ struct PhotoSlider: View {
         .tabViewStyle(PageTabViewStyle())
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .interactive))
         .frame(height: 300)
-        .background(Color.black)
+        .background(Color("PhotoSlider"))
         .cornerRadius(10)
     }
 }
