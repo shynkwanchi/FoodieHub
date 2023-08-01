@@ -1,14 +1,14 @@
 /*
- RMIT University Vietnam
- Course: COSC2659 iOS Development
- Semester: 2023B
- Assessment: Assignment 1
- Author: Nguyen Quang Duy
- ID: 3877991
- Created  date: 31/07/2023
- Last modified: to be added
- Acknowledgement: https://www.youtube.com/watch?v=b5KZqZYvKmg
- */
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Nguyen Quang Duy
+  ID: 3877991
+  Created  date: 31/07/2023
+  Last modified: to be added
+  Acknowledgement: YouTube [https://www.youtube.com/watch?v=b5KZqZYvKmg]
+*/
 
 import SwiftUI
 

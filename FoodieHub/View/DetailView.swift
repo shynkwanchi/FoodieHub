@@ -1,14 +1,14 @@
 /*
- RMIT University Vietnam
- Course: COSC2659 iOS Development
- Semester: 2023B
- Assessment: Assignment 1
- Author: Nguyen Quang Duy
- ID: 3877991
- Created  date: 25/07/2023
- Last modified: to be added
- Acknowledgement: None
- */
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Nguyen Quang Duy
+  ID: 3877991
+  Created  date: 25/07/2023
+  Last modified: to be added
+  Acknowledgement: None
+*/
 
 import SwiftUI
 
@@ -31,7 +31,12 @@ struct DetailView: View {
                     Text("Details")
                         .font(Font.custom("NotoSerif-Medium", size: 24))
                         .foregroundColor(Color("Primary"))
-                    Details(restaurant: restaurant)
+                    VStack(alignment: .leading) {
+                        DetailItem(icon: "mappin", content: restaurant.address)
+                        DetailItem(icon: "clock.fill", content: "\(restaurant.businessHours.opening) - \(restaurant.businessHours.closing)")
+                        DetailItem(icon: "star.fill", content: String(restaurant.rating))
+                    }
+                    .padding(.bottom, 5.0)
                     
                     Divider()
                     Text("About")

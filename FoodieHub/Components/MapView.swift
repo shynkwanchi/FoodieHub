@@ -1,14 +1,14 @@
 /*
- RMIT University Vietnam
- Course: COSC2659 iOS Development
- Semester: 2023B
- Assessment: Assignment 1
- Author: Nguyen Quang Duy
- ID: 3877991
- Created  date: 25/07/2023
- Last modified: to be added
- Acknowledgement: Stack Oveflow [https://stackoverflow.com/questions/62989013/adding-a-mapmarker-to-mapkit-in-swiftui-2]
- */
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Nguyen Quang Duy
+  ID: 3877991
+  Created  date: 25/07/2023
+  Last modified: to be added
+  Acknowledgement: Stack Oveflow [https://stackoverflow.com/questions/62989013/adding-a-mapmarker-to-mapkit-in-swiftui-2]
+*/
 
 import SwiftUI
 import MapKit
@@ -41,7 +41,7 @@ struct MapView: View {
     var body: some View {
         VStack{
             Map(coordinateRegion: $region, interactionModes: [.pan, .zoom], annotationItems: locations) { location in
-                MapMarker(coordinate: location.coordinate, tint: .green)
+                MapMarker(coordinate: location.coordinate, tint: .accentColor)
             }
         }
         .frame(height: 300.0)

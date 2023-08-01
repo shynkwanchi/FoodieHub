@@ -1,24 +1,33 @@
 /*
- RMIT University Vietnam
- Course: COSC2659 iOS Development
- Semester: 2023B
- Assessment: Assignment 1
- Author: Nguyen Quang Duy
- ID: 3877991
- Created  date: 31/07/2023
- Last modified: to be added
- Acknowledgement: None
- */
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Nguyen Quang Duy
+  ID: 3877991
+  Created  date: 25/07/2023
+  Last modified: to be added
+  Acknowledgement: COSC2659's Lecture slides, Tutorial's Sample solutions on Github [https://github.com/TomHuynhSG/SSET-Contact-List-iOS]
+*/
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var isWelcomeViewActive: Bool = true
+    
     var body: some View {
-        WelcomeView()
+        ZStack {
+            if isWelcomeViewActive {
+                WelcomeView(isActive: $isWelcomeViewActive)
+            }
+            else {
+                NavigationListView()
+            }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

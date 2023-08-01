@@ -13,21 +13,21 @@
 import SwiftUI
 
 struct ListItem: View {
-    var restaurant : Restaurant
+    var title, subtitle, logo: String
     
     var body: some View {
-        HStack {
-            Image(restaurant.logo)
+        HStack(alignment: .center, spacing: 10) {
+            Image(logo)
                 .resizable()
                 .clipShape(Circle())
-                .frame(width: 60, height: 60)
+                .frame(width: 80, height: 80)
                 .clipped()
             
             VStack(alignment: .leading, spacing: 5) {
-                Text(restaurant.title)
+                Text(title)
                     .font(Font.custom("NotoSerif-Regular", size: 20))
                     .foregroundColor(Color("Primary"))
-                Text(restaurant.subtitle)
+                Text(subtitle)
                     .font(Font.custom("NotoSerif-Light", size: 15))
                     .foregroundColor(Color("Secondary"))
             }
@@ -38,7 +38,7 @@ struct ListItem: View {
 struct ListItem_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ListItem(restaurant: restaurants[0])
+            ListItem(title: restaurants[0].title, subtitle: restaurants[0].subtitle, logo: restaurants[0].logo)
                 .previewLayout(.fixed(width: 300, height: 70))
         }
     }

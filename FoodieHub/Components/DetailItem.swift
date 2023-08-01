@@ -1,14 +1,14 @@
 /*
- RMIT University Vietnam
- Course: COSC2659 iOS Development
- Semester: 2023B
- Assessment: Assignment 1
- Author: Nguyen Quang Duy
- ID: 3877991
- Created  date: 25/07/2023
- Last modified: to be added
- Acknowledgement: None
- */
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Nguyen Quang Duy
+  ID: 3877991
+  Created  date: 25/07/2023
+  Last modified: to be added
+  Acknowledgement: None
+*/
 
 import SwiftUI
 
@@ -21,7 +21,7 @@ struct DetailItem: View {
                 .padding(.trailing, 5.0)
                 .foregroundColor(.accentColor)
             Text(content)
-                .font(Font.custom("NotoSerif-light", size: 18))
+                .font(Font.custom("NotoSerif-Light", size: 18))
                 .foregroundColor(Color("Secondary"))
         }
         .padding(.bottom, 5.0)

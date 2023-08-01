@@ -5,13 +5,13 @@
   Assessment: Assignment 1
   Author: Nguyen Quang Duy
   ID: 3877991
-  Created  date: 25/07/2023
+  Created  date: 28/07/2023
   Last modified: to be added
   Acknowledgement: COSC2659's Lecture slides, Tutorial's Sample solutions on Github [https://github.com/TomHuynhSG/SSET-Contact-List-iOS]
 */
 
 import Foundation
- 
+
 func decodeDataFromJsonFile(jsonFileName: String) -> [Restaurant] {
     if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil) {
         if let data = try? Data(contentsOf: file) {
@@ -30,4 +30,4 @@ func decodeDataFromJsonFile(jsonFileName: String) -> [Restaurant] {
     return [] as [Restaurant]
 }
 
-var restaurants = decodeDataFromJsonFile(jsonFileName: "restaurants.json")
+var restaurants = decodeDataFromJsonFile(jsonFileName: "restaurantData.json")
