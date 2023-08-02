@@ -34,7 +34,7 @@ struct DetailView: View {
                     VStack(alignment: .leading) {
                         DetailItem(icon: "mappin", content: restaurant.address)
                         DetailItem(icon: "clock.fill", content: "\(restaurant.businessHours.opening) - \(restaurant.businessHours.closing)")
-                        DetailItem(icon: "star.fill", content: String(restaurant.rating))
+
                     }
                     .padding(.bottom, 5.0)
                     

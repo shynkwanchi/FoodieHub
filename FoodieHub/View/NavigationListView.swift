@@ -17,21 +17,21 @@ struct NavigationListView: View {
     @State private var searchText : String = ""
     
     // This state variable is used to store rating range options
-    @State private var rating : String = "Any"
-    var ratings : [String] = ["Any", "< 4.0", "4.0 to 4.5", "> 4.5"]
+    @State private var category : String = "Any"
+    var categories : [String] = ["Any", "BBQ", "Hotpot", "Sushi", "Others"]
     
     var body: some View {
         NavigationView {
             VStack {
                 VStack{
                     HStack {
-                        Text("Rating")
+                        Text("Categories")
                             .font(Font.custom("NotoSerif-Regular", size: 20))
                             .padding(.bottom, -1.0)
                         Spacer()
                     }
-                    Picker("Rating", selection: $rating) {
-                        ForEach(ratings, id: \.self) {
+                    Picker("Categories", selection: $category) {
+                        ForEach(categories, id: \.self) {
                             Text($0)
                         }
                     }
@@ -42,7 +42,7 @@ struct NavigationListView: View {
                 }
                 .padding(.horizontal)
                 
-                List(filter(searchText: searchText, rating: rating)) {
+                List(filter(searchText: searchText, category: category)) {
                     restaurant in NavigationLink {
                         DetailView(restaurant: restaurant)
                     } label: {

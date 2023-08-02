@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "kingbbq-restaurant.jpeg",
+      "filename" : "kichikichi-family.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "kingbbq-restaurant@2x.jpeg",
+      "filename" : "kichikichi-family 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "kingbbq-restaurant@3x.jpeg",
+      "filename" : "kichikichi-family@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

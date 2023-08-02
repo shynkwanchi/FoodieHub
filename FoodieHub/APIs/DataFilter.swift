@@ -12,7 +12,7 @@
 
 import Foundation
 
-func filter(searchText: String, rating: String) -> [Restaurant] {
+func filter(searchText: String, category: String) -> [Restaurant] {
     // Initialize the filtered data
     var matchedRestaurants : [Restaurant] = []
     
@@ -31,13 +31,15 @@ func filter(searchText: String, rating: String) -> [Restaurant] {
     }
     
     // Check the rating options
-    switch rating {
-    case "< 4.0":
-        return matchedRestaurants.filter{ $0.rating < 4.0 }
-    case "4.0 to 4.5":
-        return matchedRestaurants.filter{ $0.rating >= 4.0 && $0.rating <= 4.5 }
-    case "> 4.5":
-        return matchedRestaurants.filter{ $0.rating > 4.5 }
+    switch category {
+    case "BBQ":
+        return matchedRestaurants.filter{ $0.category == "BBQ" }
+    case "Hotpot":
+        return matchedRestaurants.filter{ $0.category == "Hotpot" }
+    case "Sushi":
+        return matchedRestaurants.filter{ $0.category == "Sushi" }
+    case "Others":
+        return matchedRestaurants.filter{ $0.category == "Others" }
     default:
         return matchedRestaurants
     }

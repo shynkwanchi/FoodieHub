@@ -14,11 +14,10 @@ import Foundation
 
 struct Restaurant: Identifiable, Codable {
     let id: Int
-    let title, subtitle, logo, address: String
+    let title, subtitle, category, logo, address: String
     let mapCoordinates: MapCoordinates
     let businessHours: BusinessHours
     let website: String
-    let rating: Double
     let description: String
     let photos: [String]
 }

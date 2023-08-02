@@ -3,6 +3,7 @@
         "id": 1,
         "title": "King BBQ",
         "subtitle": "King of Korean BBQ",
+        "category": "BBQ",
         "logo": "kingbbq",
         "address": "347 Le Van Sy, Ward 1, Tan Binh, Ho Chi Minh City",
         "mapCoordinates": {
@@ -14,7 +15,6 @@
             "closing": "22:00"
         },
         "website": "https://kingbbq.vn/",
-        "rating": 4.2,
         "description": "With a passion for cultural cuisine, King BBQ offers diners a creative Korea-standard experience in the way of preparing each dish, making it worthy to be the KING OF BBQ! The menu with more than 200 diverse and unique dishes, researched and refined by the SECRET marinade and sauce recipe from the Korean chefs with over 40 years of experience, will satisfy any diners when they come to King BBQ.",
         "photos": [
             "King BBQ restaurant",
@@ -28,6 +28,7 @@
         "id": 2,
         "title": "Hutong",
         "subtitle": "Hotpot Paradise",
+        "category": "Hotpot",
         "logo": "hutong",
         "address": "6B Le Quy Don, Vo Thi Sau, District 3, Ho Chi Minh City",
         "mapCoordinates": {
@@ -39,7 +40,6 @@
             "closing": "22:00"
         },
         "website": "https://hutong.com.vn/",
-        "rating": 4.3,
         "description": "Hong Kong's food culture is an exciting blend of traditional and contemporary flavors that creates a lively dining experience. The quintessential Hong Kong hot pot is a testament to the pickiness and fussiness in the cuisine of the 'Gourmet's Culinary Paradise'.\nThe HUTONG culinary team is constantly creating and experimenting to bring you 'unlike-before' experiences, so that each of your hot pot parties is complete and unique.",
         "photos": [
             "Hutong restaurant",
@@ -53,18 +53,18 @@
         "id": 3,
         "title": "Tokyo Deli",
         "subtitle": "Sushi Restaurant",
+        "category": "Sushi",
         "logo": "tokyodeli",
-        "address": "4 Truong Son, Ward 2, Tan Binh, Ho Chi Minh City",
+        "address": "242-244 Phan Xich Long, Ward 1, Phu Nhuan, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.806995,
-            "longitude": 106.664446
+            "latitude": 10.798015,
+            "longitude": 106.689610
         },
         "businessHours": {
             "opening": "11:00",
-            "closing": "22:00"
+            "closing": "21:00"
         },
         "website": "https://tokyodeli.com.vn/",
-        "rating": 4.2,
         "description": "Tokyo Deli is a restaurant chain that specializes in Japanese dishes, with the menu of over 200 dishes carefully selected from Japanese culinary experts, and regularly perfected to better suit Vietnamese tastes. Those who are Japanese cuisine gourmets are often very interested in how the dishes are cooked here, because those dishes always retain their identity from flavor to cooking steps.\nAt Tokyo Deli, in addition to Japan’s traditional Sashimi and Sushi dishes that are loved by most people who have ever enjoyed Japanese food, the menu provides a variety of options for diners who have enjoyed Japanese cuisine for the first time.",
         "photos": [
             "Tokyo Deli restaurant",
@@ -78,18 +78,18 @@
         "id": 4,
         "title": "GoGi House",
         "subtitle": "Korean BBQ Restaurant",
+        "category": "BBQ",
         "logo": "gogihouse",
-        "address": "143 Phan Xich Long, Ward 7, Phu Nhuan, Ho Chi Minh City",
+        "address": "229-231 Dinh Tien Hoang, Tan Dinh, District 1, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.797721,
-            "longitude": 106.689400
+            "latitude": 10.792565,
+            "longitude": 106.695757
         },
         "businessHours": {
             "opening": "10:00",
             "closing": "22:00"
         },
         "website": "https://gogi.com.vn/",
-        "rating": 4.0,
         "description": "GoGi House - the No. 1 delicious Korean Barbecue Restaurant will take you to the barbecue restaurants in Seoul that have created a reputation for Korean cuisine. If you have once enjoyed barbecue at GoGi House, you won't be able to forget the 'ecstatic' taste of American beef short ribs, lean American beef shoulder, fresh ribs… blended with typical Korean spices. In addition, the indispensable side dishes such as bibimbap, cold noodles, Kimchi soup and hotpot dishes will also impress you more about Korean cuisine.",
         "photos": [
             "GoGi House restaurant",
@@ -102,7 +102,8 @@
     {
         "id": 5,
         "title": "Hotpot Story",
-        "subtitle": "5 Asian Flavors",
+        "subtitle": "The Elegance of 5 Asian Flavors",
+        "category": "Hotpot",
         "logo": "hotpotstory",
         "address": "409 Le Van Sy, Ward 12, District 3, Ho Chi Minh City",
         "mapCoordinates": {
@@ -114,8 +115,7 @@
             "closing": "22:00"
         },
         "website": "https://hotpotstory.vn/",
-        "rating": 4.2,
-        "description": "Packed with the quintessence of 5 international hotpot flavors from Thailand, China, Japan, and Korea, diners can indulge in the warm, ecstatic hotpot flavor with featured side dishes and unlimited line counter. You can enjoy a COMPLETE meal between starter, main course, side dish, and dessert, which all are in Hotpot Story!\nThe restaurant always focuses on GREEN and CLEAN ingredients, including premium-quality American beef, fresh vegetables imported from Dalat farms to ensure every delicious meal for diners. Hotpot Story wishes to bring many diners wonderful experiences and ideal fun.",
+        "description": "Packed with the elegance of 5 international hotpot flavors from Thailand, China, Japan, and Korea, diners can indulge in the warm, ecstatic hotpot flavor with featured side dishes and unlimited line counter. You can enjoy a COMPLETE meal between starter, main course, side dish, and dessert, which all are in Hotpot Story!\nThe restaurant always focuses on GREEN and CLEAN ingredients, including premium-quality American beef, fresh vegetables imported from Dalat farms to ensure every delicious meal for diners. Hotpot Story wishes to bring many diners wonderful experiences and ideal fun.",
         "photos": [
             "Hotpot Story restaurant",
             "Hotpot Story lunch",
@@ -128,6 +128,7 @@
         "id": 6,
         "title": "Sushi Hokkaido Sachi",
         "subtitle": "Vietnam's Top 1 Japanese Restaurant",
+        "category": "Sushi",
         "logo": "sushihokkaidosachi",
         "address": "180 Pasteur, Ben Nghe, District 1, Ho Chi Minh City",
         "mapCoordinates": {
@@ -139,7 +140,6 @@
             "closing": "22:30"
         },
         "website": "https://sushihokkaidosachi.com.vn/",
-        "rating": 4.3,
         "description": "Coming to Sushi Hokkaido Sachi, you will enjoy and experience authentic, delicious and very attractive Japanese dishes. Especially, all the Japanese dishes here are imported directly from the seafood paradise of Hokkaido, which is famous for the freshest seafood in Japan.\nSushi Hokkaido Sachi specializes in sushi and sashimi dishes. When coming here, diners will enjoy authentic sushi and sashimi dishes since they are cooked in the style of Japanese cuisine. Besides, all the ingredients for processing are imported completely from Hokkaido, the beautiful island of Japan, so the freshness, quality or safety of food and ingredients there is no need to discuss or worry about.",
         "photos": [
             "Sushi Hokkaido Sachi restaurant",
@@ -152,7 +152,8 @@
     {
         "id": 7,
         "title": "Sumo Yakiniku",
-        "subtitle": "Japanese BBQ And Hotpot",
+        "subtitle": "The Elegance of Japanese BBQ",
+        "category": "BBQ",
         "logo": "sumoyakiniku",
         "address": "59B Cao Thang, Ward 3, District 3, Ho Chi Minh City",
         "mapCoordinates": {
@@ -178,11 +179,12 @@
         "id": 8,
         "title": "Kichi-Kichi",
         "subtitle": "Express Rotary Hotpot",
+        "category": "Hotpot",
         "logo": "kichikichi",
-        "address": "145 Phan Xich Long, Ward 7, Phu Nhuan, Ho Chi Minh City",
+        "address": "830 Su Van Hanh, Ward 13, District 10, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.797755,
-            "longitude": 106.689326
+            "latitude": 10.777046,
+            "longitude": 106.666367
         },
         "businessHours": {
             "opening": "10:00",
@@ -203,6 +205,7 @@
         "id": 9,
         "title": "San Fu Lou",
         "subtitle": "Cantonese Kitchen",
+        "category": "Others",
         "logo": "sanfulou",
         "address": "195 Phan Xich Long, Ward 2, Phu Nhuan, Ho Chi Minh City",
         "mapCoordinates": {
@@ -228,6 +231,7 @@
         "id": 10,
         "title": "Al Fresco's",
         "subtitle": "Enjoy Western Cuisine",
+        "category": "Others",
         "logo": "alfrescos",
         "address": "31 Bis Mac Dinh Chi, Da Kao, District 1, Ho Chi Minh City",
         "mapCoordinates": {
