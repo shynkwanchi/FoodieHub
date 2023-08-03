@@ -22,7 +22,6 @@ func filter(searchText: String, category: String) -> [Restaurant] {
         matchedRestaurants = restaurants.filter{
             $0.title.localizedCaseInsensitiveContains(searchText) ||
             $0.subtitle.localizedCaseInsensitiveContains(searchText) ||
-            $0.address.localizedCaseInsensitiveContains(searchText)
         }
     }
     else {
@@ -39,7 +38,7 @@ func filter(searchText: String, category: String) -> [Restaurant] {
     case "Sushi":
         return matchedRestaurants.filter{ $0.category == "Sushi" }
     case "Others":
-        return matchedRestaurants.filter{ $0.category == "Others" }
+        return matchedRestaurants.filter{ $0.category != "BBQ" && $0.category != "Hotpot" && $0.category != "Sushi" }
     default:
         return matchedRestaurants
     }

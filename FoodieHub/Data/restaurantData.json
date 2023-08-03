@@ -130,14 +130,14 @@
         "subtitle": "Vietnam's Top 1 Japanese Restaurant",
         "category": "Sushi",
         "logo": "sushihokkaidosachi",
-        "address": "180 Pasteur, Ben Nghe, District 1, Ho Chi Minh City",
+        "address": "172Q Nguyen Dinh Chieu, Ward 6, District 3, Ho Chi Minh City",
         "mapCoordinates": {
             "latitude": 10.778328,
             "longitude": 106.698382
         },
         "businessHours": {
             "opening": "10:30",
-            "closing": "22:30"
+            "closing": "23:00"
         },
         "website": "https://sushihokkaidosachi.com.vn/",
         "description": "Coming to Sushi Hokkaido Sachi, you will enjoy and experience authentic, delicious and very attractive Japanese dishes. Especially, all the Japanese dishes here are imported directly from the seafood paradise of Hokkaido, which is famous for the freshest seafood in Japan.\nSushi Hokkaido Sachi specializes in sushi and sashimi dishes. When coming here, diners will enjoy authentic sushi and sashimi dishes since they are cooked in the style of Japanese cuisine. Besides, all the ingredients for processing are imported completely from Hokkaido, the beautiful island of Japan, so the freshness, quality or safety of food and ingredients there is no need to discuss or worry about.",
@@ -181,13 +181,13 @@
         "subtitle": "Express Rotary Hotpot",
         "category": "Hotpot",
         "logo": "kichikichi",
-        "address": "830 Su Van Hanh, Ward 13, District 10, Ho Chi Minh City",
+        "address": "84 Cao Thang, Ward 4, District 3, Ho Chi Minh City",
         "mapCoordinates": {
             "latitude": 10.777046,
             "longitude": 106.666367
         },
         "businessHours": {
-            "opening": "10:00",
+            "opening": "11:00",
             "closing": "22:00"
         },
         "website": "https://kichi.com.vn/",
@@ -205,7 +205,7 @@
         "id": 9,
         "title": "San Fu Lou",
         "subtitle": "Cantonese Kitchen",
-        "category": "Others",
+        "category": "Eastern",
         "logo": "sanfulou",
         "address": "195 Phan Xich Long, Ward 2, Phu Nhuan, Ho Chi Minh City",
         "mapCoordinates": {
@@ -231,7 +231,7 @@
         "id": 10,
         "title": "Al Fresco's",
         "subtitle": "Enjoy Western Cuisine",
-        "category": "Others",
+        "category": "Western",
         "logo": "alfrescos",
         "address": "31 Bis Mac Dinh Chi, Da Kao, District 1, Ho Chi Minh City",
         "mapCoordinates": {
