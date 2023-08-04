@@ -45,6 +45,7 @@
 		69714C9A2A6FCEE4002AA007 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		69714C9C2A6FCF33002AA007 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 		69714C9E2A6FD280002AA007 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		698DEB2B2A7CBA7F0041C6C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		698E16862A7385F6006339A8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		698E168D2A73B9EA006339A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		698E168E2A73BBA2006339A8 /* NotoSerif-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Light.ttf"; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		6943782A2A6F6F3F00BF04A8 = {
 			isa = PBXGroup;
 			children = (
+				698DEB2B2A7CBA7F0041C6C7 /* README.md */,
 				694378352A6F6F3F00BF04A8 /* FoodieHub */,
 				694378342A6F6F3F00BF04A8 /* Products */,
 			);

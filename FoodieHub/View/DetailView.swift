@@ -6,7 +6,7 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 25/07/2023
-  Last modified: to be added
+  Last modified: 04/08/2023
   Acknowledgement: None
 */
 
@@ -34,7 +34,7 @@ struct DetailView: View {
                     VStack(alignment: .leading) {
                         DetailItem(icon: "mappin", content: restaurant.address)
                         DetailItem(icon: "clock.fill", content: "\(restaurant.businessHours.opening) - \(restaurant.businessHours.closing)")
-
+                        DetailItem(icon: "phone.fill", content: "\(restaurant.phoneNumber)")
                     }
                     .padding(.bottom, 5.0)
                     

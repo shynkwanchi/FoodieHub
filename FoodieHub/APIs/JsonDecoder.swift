@@ -6,8 +6,8 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 28/07/2023
-  Last modified: to be added
-  Acknowledgement: COSC2659's Lecture slides, Tutorial's Sample solutions on Github [https://github.com/TomHuynhSG/SSET-Contact-List-iOS]
+  Last modified: 01/08/2023
+  Acknowledgement: COSC2659's Lecture slides
 */
 
 import Foundation

@@ -6,7 +6,7 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 01/08/2023
-  Last modified: to be added
+  Last modified: 04/08/2023
   Acknowledgement: None
 */
 
@@ -21,7 +21,7 @@ func filter(searchText: String, category: String) -> [Restaurant] {
         // If so, filter the restaurant based on title, subtitle or address
         matchedRestaurants = restaurants.filter{
             $0.title.localizedCaseInsensitiveContains(searchText) ||
-            $0.subtitle.localizedCaseInsensitiveContains(searchText) ||
+            $0.subtitle.localizedCaseInsensitiveContains(searchText)
         }
     }
     else {

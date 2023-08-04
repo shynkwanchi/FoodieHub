@@ -6,7 +6,7 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 25/07/2023
-  Last modified: to be added
+  Last modified: 01/08/2023
   Acknowledgement: COSC2659's Lecture slides
 */
 

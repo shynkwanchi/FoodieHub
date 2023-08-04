@@ -6,8 +6,8 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 25/07/2023
-  Last modified: to be added
-  Acknowledgement: Stack Oveflow [https://stackoverflow.com/questions/62989013/adding-a-mapmarker-to-mapkit-in-swiftui-2]
+  Last modified: 05/08/2023
+  Acknowledgement: Stack Oveflow
 */
 
 import SwiftUI

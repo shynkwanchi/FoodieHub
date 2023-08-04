@@ -10,6 +10,7 @@
             "latitude": 10.796186,
             "longitude": 106.665601
         },
+        "phoneNumber": "+84 28 3991 1688",
         "businessHours": {
             "opening": "10:00",
             "closing": "22:00"
@@ -35,6 +36,7 @@
             "latitude": 10.780275,
             "longitude": 106.692310
         },
+        "phoneNumber": "+84 28 7300 7406",
         "businessHours": {
             "opening": "10:00",
             "closing": "22:00"
@@ -60,6 +62,7 @@
             "latitude": 10.798015,
             "longitude": 106.689610
         },
+        "phoneNumber": "+84 28 3517 2777",
         "businessHours": {
             "opening": "11:00",
             "closing": "21:00"
@@ -85,6 +88,7 @@
             "latitude": 10.792565,
             "longitude": 106.695757
         },
+        "phoneNumber": "+84 28 7300 7390",
         "businessHours": {
             "opening": "10:00",
             "closing": "22:00"
@@ -110,6 +114,7 @@
             "latitude": 10.789007,
             "longitude": 106.675669
         },
+        "phoneNumber": "+84 28 7307 6979",
         "businessHours": {
             "opening": "10:00",
             "closing": "22:00"
@@ -130,14 +135,15 @@
         "subtitle": "Vietnam's Top 1 Japanese Restaurant",
         "category": "Sushi",
         "logo": "sushihokkaidosachi",
-        "address": "172Q Nguyen Dinh Chieu, Ward 6, District 3, Ho Chi Minh City",
+        "address": "180 Pasteur, Ben Nghe, District 1, Ho Chi Minh City",
         "mapCoordinates": {
             "latitude": 10.778328,
             "longitude": 106.698382
         },
+        "phoneNumber": "+84 28 3823 2275",
         "businessHours": {
             "opening": "10:30",
-            "closing": "23:00"
+            "closing": "23:30"
         },
         "website": "https://sushihokkaidosachi.com.vn/",
         "description": "Coming to Sushi Hokkaido Sachi, you will enjoy and experience authentic, delicious and very attractive Japanese dishes. Especially, all the Japanese dishes here are imported directly from the seafood paradise of Hokkaido, which is famous for the freshest seafood in Japan.\nSushi Hokkaido Sachi specializes in sushi and sashimi dishes. When coming here, diners will enjoy authentic sushi and sashimi dishes since they are cooked in the style of Japanese cuisine. Besides, all the ingredients for processing are imported completely from Hokkaido, the beautiful island of Japan, so the freshness, quality or safety of food and ingredients there is no need to discuss or worry about.",
@@ -160,6 +166,7 @@
             "latitude": 10.770657,
             "longitude": 106.681231
         },
+        "phoneNumber": "+84 28 7300 0501",
         "businessHours": {
             "opening": "11:00",
             "closing": "22:00"
@@ -183,9 +190,10 @@
         "logo": "kichikichi",
         "address": "84 Cao Thang, Ward 4, District 3, Ho Chi Minh City",
         "mapCoordinates": {
-            "latitude": 10.777046,
-            "longitude": 106.666367
+            "latitude": 10.770964,
+            "longitude": 106.681318
         },
+        "phoneNumber": "+84 28 7300 0167",
         "businessHours": {
             "opening": "11:00",
             "closing": "22:00"
@@ -212,6 +220,7 @@
             "latitude": 10.798526,
             "longitude": 106.687525
         },
+        "phoneNumber": "+84 28 3517 6168",
         "businessHours": {
             "opening": "07:00",
             "closing": "22:00"
@@ -233,11 +242,12 @@
         "subtitle": "Enjoy Western Cuisine",
         "category": "Western",
         "logo": "alfrescos",
-        "address": "31 Bis Mac Dinh Chi, Da Kao, District 1, Ho Chi Minh City",
+        "address": "21 Mac Dinh Chi, Da Kao, District 1, Ho Chi Minh City",
         "mapCoordinates": {
             "latitude": 10.784676,
             "longitude": 106.699353
         },
+        "phoneNumber": "+84 28 3823 8427",
         "businessHours": {
             "opening": "10:00",
             "closing": "22:00"

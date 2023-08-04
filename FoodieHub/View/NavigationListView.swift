@@ -6,8 +6,8 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 25/07/2023
-  Last modified: to be added
-  Acknowledgement: COSC2659's Lecture slides, Hacking with Swift [https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-segmented-control-and-read-values-from-it] [https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-search-bar-to-filter-your-data]
+  Last modified: 02/08/2023
+  Acknowledgement: COSC2659's Lecture slides, Hacking with Swift
 */
 
 import SwiftUI

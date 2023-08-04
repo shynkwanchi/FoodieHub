@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "kichikichi-restaurant.jpeg",
+      "filename" : "kichikichi-restaurant.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "kichikichi-restaurant@2x.jpeg",
+      "filename" : "kichikichi-restaurant@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "kichikichi-restaurant@3x.jpeg",
+      "filename" : "kichikichi-restaurant@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
