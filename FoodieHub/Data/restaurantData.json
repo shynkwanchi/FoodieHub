@@ -79,6 +79,32 @@
     },
     {
         "id": 4,
+        "title": "Al Fresco's",
+        "subtitle": "Enjoy Western Cuisine",
+        "category": "Western",
+        "logo": "alfrescos",
+        "address": "21 Mac Dinh Chi, Da Kao, District 1, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.784676,
+            "longitude": 106.699353
+        },
+        "phoneNumber": "+84 28 3823 8427",
+        "businessHours": {
+            "opening": "10:00",
+            "closing": "22:00"
+        },
+        "website": "https://alfrescos.com.vn/",
+        "description": "Since its establishment in 1996, Al Fresco's has provided customers in Vietnam with excellent quality dining experiences at a reasonable cost. The Al Fresco's restaurant chain has built a reputation for delicious dishes such as steaks, pizza, pasta and ribs, along with a variety of drinks from fruit juices and refreshing smoothies to domestic, imported beers and famous wines.\nAl Fresco's is also popular with Vietnamese and foreign families, couples and young people. With a clean, comfortable design and a sense of intimacy, the restaurant is an oasis that welcomes you to enjoy delicious food and excellent customer service after the hustle and bustle of daily life.",
+        "photos": [
+            "Al Fresco's restaurant",
+            "Al Fresco's lunch",
+            "Al Fresco's dinner",
+            "Al Fresco's family meal",
+            "Al Fresco's friends meal"
+        ]
+    },
+    {
+        "id": 5,
         "title": "GoGi House",
         "subtitle": "Korean BBQ Restaurant",
         "category": "BBQ",
@@ -104,7 +130,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Hotpot Story",
         "subtitle": "The Elegance of 5 Asian Flavors",
         "category": "Hotpot",
@@ -130,7 +156,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Sushi Hokkaido Sachi",
         "subtitle": "Vietnam's Top 1 Japanese Restaurant",
         "category": "Sushi",
@@ -156,7 +182,33 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
+        "title": "Crystal Jade",
+        "subtitle": "Hong Kong Kitchen",
+        "category": "Eastern",
+        "logo": "crystaljade",
+        "address": "5F Saigon Centre, 65 Le Loi, Ben Nghe, District 1, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.773188,
+            "longitude": 106.700919
+        },
+        "phoneNumber": "+84 28 7300 2135",
+        "businessHours": {
+            "opening": "10:00",
+            "closing": "21:00"
+        },
+        "website": "https://crystaljade.com.vn",
+        "description": "As a global brand with 30 years of operation and 120 restaurants located in 25 cities in 11 different countries, Crystal Jade is probably a familiar name to the culinary world because of its dedication in the food service and rigorous standards.\nProud to be part of the Crystal Jade culinary group, Crystal Jade Kitchen continues to inherit the reputation and esoteric recipes from the prestigious Michelin-certified brand. With over 100 authentic Hong Kong dishes, each story in your meal will become more interesting by the modern space and international standard culinary style when coming to Crystal Jade Kitchen.",
+        "photos": [
+            "Crystal Jade restaurant",
+            "Crystal Jade lunch",
+            "Crystal Jade dinner",
+            "Crystal Jade family meal",
+            "Crystal Jade friends meal"
+        ]
+    },
+    {
+        "id": 9,
         "title": "Sumo Yakiniku",
         "subtitle": "The Elegance of Japanese BBQ",
         "category": "BBQ",
@@ -182,7 +234,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 10,
         "title": "Kichi-Kichi",
         "subtitle": "Express Rotary Hotpot",
         "category": "Hotpot",
@@ -208,7 +260,33 @@
         ]
     },
     {
-        "id": 9,
+        "id": 11,
+        "title": "iSushi",
+        "subtitle": "Japanese Buffet",
+        "category": "Sushi",
+        "logo": "isushi",
+        "address": "13 Le Quy Don, Vo Thi Sau, District 3, Ho Chi Minh City",
+        "mapCoordinates": {
+            "latitude": 10.779990,
+            "longitude": 106.691993
+        },
+        "phoneNumber": "+84 28 3520 0018",
+        "businessHours": {
+            "opening": "11:00",
+            "closing": "22:00"
+        },
+        "website": "https://isushi.com.vn",
+        "description": "Established in 2015, iSushi is proud to bring customers authentic Japanese experiences and vibes with a Japanese Buffet of over 100 elegant dishes with fresh Sashimi dishes, over 57 kinds of Sushi, and many other attractive dishes performed under the ingenious leadership of Executive Chef Noda Toshiro. Whether it's the original or the elaborate taste, the dishes at iSushi constantly attract customers. Therefore, iSushi becomes a scrumptious choice not to be missed for foodies of Japan.",
+        "photos": [
+            "iSushi restaurant",
+            "iSushi lunch",
+            "iSushi dinner",
+            "iSushi family meal",
+            "iSushi friends meal"
+        ]
+    },
+    {
+        "id": 12,
         "title": "San Fu Lou",
         "subtitle": "Cantonese Kitchen",
         "category": "Eastern",
@@ -231,32 +309,6 @@
             "San Fu Lou dinner",
             "San Fu Lou family meal",
             "San Fu Lou friends meal"
-        ]
-    },
-    {
-        "id": 10,
-        "title": "Al Fresco's",
-        "subtitle": "Enjoy Western Cuisine",
-        "category": "Western",
-        "logo": "alfrescos",
-        "address": "21 Mac Dinh Chi, Da Kao, District 1, Ho Chi Minh City",
-        "mapCoordinates": {
-            "latitude": 10.784676,
-            "longitude": 106.699353
-        },
-        "phoneNumber": "+84 28 3823 8427",
-        "businessHours": {
-            "opening": "10:00",
-            "closing": "22:00"
-        },
-        "website": "https://alfrescos.com.vn/",
-        "description": "Since its establishment in 1996, Al Fresco's has provided customers in Vietnam with excellent quality dining experiences at a reasonable cost. The Al Fresco's restaurant chain has built a reputation for delicious dishes such as steaks, pizza, pasta and ribs, along with a variety of drinks from fruit juices and refreshing smoothies to domestic, imported beers and famous wines.\nAl Fresco's is also popular with Vietnamese and foreign families, couples and young people. With a clean, comfortable design and a sense of intimacy, the restaurant is an oasis that welcomes you to enjoy delicious food and excellent customer service after the hustle and bustle of daily life.",
-        "photos": [
-            "Al Fresco's restaurant",
-            "Al Fresco's lunch",
-            "Al Fresco's dinner",
-            "Al Fresco's family meal",
-            "Al Fresco's friends meal"
         ]
     }
 ]

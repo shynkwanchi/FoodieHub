@@ -21,7 +21,8 @@ func filter(searchText: String, category: String) -> [Restaurant] {
         // If so, filter the restaurant based on title, subtitle or address
         matchedRestaurants = restaurants.filter{
             $0.title.localizedCaseInsensitiveContains(searchText) ||
-            $0.subtitle.localizedCaseInsensitiveContains(searchText)
+            $0.subtitle.localizedCaseInsensitiveContains(searchText) ||
+            $0.description.localizedCaseInsensitiveContains(searchText)
         }
     }
     else {
