@@ -7,11 +7,11 @@
 ## 📖 Description
 To be added
 <div align="center">
-    <image width="175" src="./Screenshots/app-icon.png">
-    <image width="175" src="./Screenshots/welcome-view.png">
-    <image width="175" src="./Screenshots/navigation-list-view.png">
-    <image width="175" src="./Screenshots/detail-view-1.png">
-    <image width="175" src="./Screenshots/detail-view-2.png">
+    <image width="150" src="./Screenshots/app-icon.png">
+    <image width="150" src="./Screenshots/welcome-view.png">
+    <image width="150" src="./Screenshots/navigation-list-view.png">
+    <image width="150" src="./Screenshots/detail-view-1.png">
+    <image width="150" src="./Screenshots/detail-view-2.png">
 </div>
 
 ## 🔮 Live Demo (Animation GIF)
