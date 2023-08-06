@@ -1,17 +1,17 @@
 # Foodie Hub
 <div align="center">
-    <image width="100" src="./FoodieHub/Assets.xcassets/AppIcon.appiconset/app-icon.png">
+    <image width="125" src="./FoodieHub/Assets.xcassets/AppIcon.appiconset/app-icon.png">
 </div>
 <p align="center">"Enjoy your meal in your favorite restaurant."</p>
 
 ## 📖 Description
 To be added
 <div align="center">
-    <image width="150" src="./Screenshots/app-icon.png">
-    <image width="150" src="./Screenshots/welcome-view.png">
-    <image width="150" src="./Screenshots/navigation-list-view.png">
-    <image width="150" src="./Screenshots/detail-view-1.png">
-    <image width="150" src="./Screenshots/detail-view-2.png">
+    <image width="200" src="./Screenshots/app-icon.png">
+    <image width="200" src="./Screenshots/welcome-view.png">
+    <image width="200" src="./Screenshots/navigation-list-view.png">
+    <image width="200" src="./Screenshots/detail-view-1.png">
+    <image width="200" src="./Screenshots/detail-view-2.png">
 </div>
 
 ## 🔮 Live Demo (Animation GIF)
