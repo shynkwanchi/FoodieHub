@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690E635B2A7F93FF0096B919 /* search-box-and-filter-bar-demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 690E63572A7F93FC0096B919 /* search-box-and-filter-bar-demo.gif */; };
+		690E635C2A7F93FF0096B919 /* main-features-demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 690E63582A7F93FE0096B919 /* main-features-demo.gif */; };
+		690E635D2A7F93FF0096B919 /* map-pin-demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 690E63592A7F93FE0096B919 /* map-pin-demo.gif */; };
+		690E635E2A7F93FF0096B919 /* dark-mode-toggle-button-demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 690E635A2A7F93FF0096B919 /* dark-mode-toggle-button-demo.gif */; };
 		6943783B2A6F6F4100BF04A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6943783A2A6F6F4100BF04A8 /* Assets.xcassets */; };
 		6943783E2A6F6F4100BF04A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6943783D2A6F6F4100BF04A8 /* Preview Assets.xcassets */; };
 		694378482A6F968D00BF04A8 /* FoodieHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694378462A6F964200BF04A8 /* FoodieHub.swift */; };
@@ -31,12 +35,15 @@
 		69B7788E2A7E66630022DB2C /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B778892A7E66620022DB2C /* app-icon.png */; };
 		69B7788F2A7E66630022DB2C /* detail-view-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7788A2A7E66630022DB2C /* detail-view-2.png */; };
 		69B778902A7E66630022DB2C /* detail-view-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7788B2A7E66630022DB2C /* detail-view-1.png */; };
-		69B778942A7E75930022DB2C /* main-features-demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 69B778932A7E75920022DB2C /* main-features-demo.mov */; };
 		69B7D1C62A74F42600B32EE0 /* PhotoSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7D1C52A74F42600B32EE0 /* PhotoSlider.swift */; };
 		69E8BBFA2A78EE400017DA88 /* DataFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E8BBF92A78EE400017DA88 /* DataFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		690E63572A7F93FC0096B919 /* search-box-and-filter-bar-demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "search-box-and-filter-bar-demo.gif"; sourceTree = "<group>"; };
+		690E63582A7F93FE0096B919 /* main-features-demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "main-features-demo.gif"; sourceTree = "<group>"; };
+		690E63592A7F93FE0096B919 /* map-pin-demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "map-pin-demo.gif"; sourceTree = "<group>"; };
+		690E635A2A7F93FF0096B919 /* dark-mode-toggle-button-demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "dark-mode-toggle-button-demo.gif"; sourceTree = "<group>"; };
 		694378332A6F6F3F00BF04A8 /* FoodieHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodieHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		694378382A6F6F3F00BF04A8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		6943783A2A6F6F4100BF04A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +70,6 @@
 		69B778892A7E66620022DB2C /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
 		69B7788A2A7E66630022DB2C /* detail-view-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail-view-2.png"; sourceTree = "<group>"; };
 		69B7788B2A7E66630022DB2C /* detail-view-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail-view-1.png"; sourceTree = "<group>"; };
-		69B778932A7E75920022DB2C /* main-features-demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "main-features-demo.mov"; sourceTree = "<group>"; };
 		69B7D1C52A74F42600B32EE0 /* PhotoSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSlider.swift; sourceTree = "<group>"; };
 		69E8BBF92A78EE400017DA88 /* DataFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,7 +180,10 @@
 		69B778832A7E585F0022DB2C /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				69B778932A7E75920022DB2C /* main-features-demo.mov */,
+				690E635A2A7F93FF0096B919 /* dark-mode-toggle-button-demo.gif */,
+				690E63582A7F93FE0096B919 /* main-features-demo.gif */,
+				690E63592A7F93FE0096B919 /* map-pin-demo.gif */,
+				690E63572A7F93FC0096B919 /* search-box-and-filter-bar-demo.gif */,
 				69B778892A7E66620022DB2C /* app-icon.png */,
 				69B7788B2A7E66630022DB2C /* detail-view-1.png */,
 				69B7788A2A7E66630022DB2C /* detail-view-2.png */,
@@ -255,12 +264,15 @@
 				6943783E2A6F6F4100BF04A8 /* Preview Assets.xcassets in Resources */,
 				69B778902A7E66630022DB2C /* detail-view-1.png in Resources */,
 				698E16932A73BE6D006339A8 /* NotoSerif-Regular.ttf in Resources */,
+				690E635C2A7F93FF0096B919 /* main-features-demo.gif in Resources */,
+				690E635E2A7F93FF0096B919 /* dark-mode-toggle-button-demo.gif in Resources */,
 				698E168F2A73BBA2006339A8 /* NotoSerif-Light.ttf in Resources */,
 				69B7788D2A7E66630022DB2C /* navigation-list-view.png in Resources */,
+				690E635B2A7F93FF0096B919 /* search-box-and-filter-bar-demo.gif in Resources */,
 				69B778862A7E64680022DB2C /* README.md in Resources */,
+				690E635D2A7F93FF0096B919 /* map-pin-demo.gif in Resources */,
 				69B7788E2A7E66630022DB2C /* app-icon.png in Resources */,
 				6950A88D2A7101F10012DD58 /* restaurantData.json in Resources */,
-				69B778942A7E75930022DB2C /* main-features-demo.mov in Resources */,
 				698E16912A73BD1D006339A8 /* NotoSerif-Medium.ttf in Resources */,
 				6943783B2A6F6F4100BF04A8 /* Assets.xcassets in Resources */,
 				69B7788F2A7E66630022DB2C /* detail-view-2.png in Resources */,
