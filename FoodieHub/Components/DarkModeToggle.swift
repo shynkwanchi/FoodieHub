@@ -6,13 +6,14 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 31/07/2023
-  Last modified: 05/08/2023
+  Last modified: 07/08/2023
   Acknowledgement: YouTube
 */
 
 import SwiftUI
 
 struct DarkModeToggle: View {
+    // Set light mode as default app apearance
     @AppStorage("isDarkMode") private var isDarkMode : Bool = false
     
     var body: some View {
@@ -25,7 +26,7 @@ struct DarkModeToggle: View {
                     .foregroundColor(.accentColor)
             }
         }
-        .preferredColorScheme(isDarkMode ? .dark : .light)
+        .preferredColorScheme(isDarkMode ? .dark : .light)  // Switch the app appearance between light and dark mode
     }
 }
 

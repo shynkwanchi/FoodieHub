@@ -46,4 +46,4 @@
 
 ## 🏆 Author
 - Nguyen Quang Duy - duynguyenquang412@gmail.com
-- GitHub - [shynkwanchi](https://github.com/shynkwanchi)
+- GitHub - [shynkwanchi/FoodieHub](https://github.com/shynkwanchi/FoodieHub)

@@ -6,7 +6,7 @@
   Author: Nguyen Quang Duy
   ID: 3877991
   Created  date: 01/08/2023
-  Last modified: 05/08/2023
+  Last modified: 07/08/2023
   Acknowledgement: None
 */
 
@@ -30,7 +30,7 @@ func filter(searchText: String, category: String) -> [Restaurant] {
         matchedRestaurants = restaurants
     }
     
-    // Check the rating options
+    // Check the category options
     switch category {
     case "BBQ":
         return matchedRestaurants.filter{ $0.category == "BBQ" }
@@ -39,6 +39,7 @@ func filter(searchText: String, category: String) -> [Restaurant] {
     case "Sushi":
         return matchedRestaurants.filter{ $0.category == "Sushi" }
     case "Others":
+        // In this case, the record whose category does not match the three categories above will be retrieved
         return matchedRestaurants.filter{ $0.category != "BBQ" && $0.category != "Hotpot" && $0.category != "Sushi" }
     default:
         return matchedRestaurants
